@@ -1,0 +1,53 @@
+a. Proporción de comentarios (comment_ratio)
+
+Valor inicial: 0.28
+
+Se agregaron comentarios y docstrings para documentar el código.
+
+Valor final luego de las mejoras: 0.34
+
+Se alcanzó el objetivo de estar por encima del 33%.
+
+b. Halstead Effort y Halstead Time Required
+
+halstead_effort: 4850.0
+
+halstead_time: 269.0
+
+Tiempo estimado en desarrollo: Aproximadamente 3 horas.
+Comparación: Los valores estimados por la métrica son razonables y reflejan adecuadamente el esfuerzo invertido.
+
+c. Halstead Bug Propagation (halstead_bugprop)
+
+Valor estimado: 0.8
+
+Cantidad de errores corregidos después de la primera ejecución exitosa: 2
+
+Manejo incorrecto de excepciones
+
+Problemas con la importación de módulos
+
+Este valor se aproxima a la cantidad de errores reales, sin contar errores de sintaxis.
+
+d. Estrategias para reducir el índice de McCabe (complejidad ciclomática)
+
+Separar funciones largas en subfunciones más pequeñas.
+
+Evitar estructuras de control muy anidadas.
+
+Usar retornos anticipados para reducir ramas lógicas.
+
+Aplicar principios de diseño como "una función, una responsabilidad".
+
+e. Registro de acciones realizadas
+
+Se ejecutó multimetric sobre api.py
+
+Se identificaron métricas a mejorar
+
+Se mejoró el ratio de comentarios
+
+Se justificaron las métricas Halstead y McCabe
+
+Se documentó el resultado en este archivo
+
